@@ -95,9 +95,22 @@
         border: 1px solid #b0b0b0;
         width: 294px;
         height: 52px;
+        margin-bottom: 20px;
         &:focus {
             border: 1px solid #7fbed5;
             box-shadow: 0px 0px 20px -1px rgba(127, 190, 213, 0.93);
+        }
+    }
+    .content__text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        & p:first-child:first-line {
+            color: red;
+        }
+        & p:last-child::first-letter {
+            font-size: 24px;
+            color: red;
         }
     }
 }
